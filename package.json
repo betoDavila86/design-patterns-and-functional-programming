@@ -1,0 +1,27 @@
+{
+  "name": "design-patterns-ts-demo",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "demo": "tsc && node dist/index.js",
+    "demo:fp": "tsc && node dist/index.js fp-all",
+    "demo:help": "tsc && node dist/index.js --help",
+    "slides": "slidev slides.md",
+    "slides:export": "slidev export slides.md",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@slidev/cli": "latest",
+    "@types/node": "^25.1.0",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "@slidev/theme-default": "^0.25.0"
+  }
+}
